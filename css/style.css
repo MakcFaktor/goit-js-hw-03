@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Rowdies', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.title-work {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  background-color: green;
+  color: aqua;
+}
+
+.task-wrap {
+  padding: 0 15px 0;
+  margin-bottom: 50px;
+}
+
+.title-task {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 15px;
+}
+
+.task {
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  background-color: blue;
+  border: 1px solid #000;
+  transition: all 0.3s linear;
+}
+
+.task:hover {
+  background-color: red;
+  color: pink;
+  border-color: blue;
+}
